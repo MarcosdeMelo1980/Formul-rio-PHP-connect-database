@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Formulário de Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row col-md-6 col-md-offset-3">
+        <div class="panel panel-primary">
+          <div class="panel-heading text-center">
+            <h1>Preencha:</h1>
+          </div>
+          <div class="panel-body">
+            <form action="connect.php" method="post">
+              <div class="form-group">
+                <label for="firstName">Nome</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="firstName"
+                  name="firstName"
+                />
+              </div>
+              <div class="form-group">
+                <label for="Company">Empresa na qual trabalha atualmente</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="Company"
+                  name="Company"
+                />
+              </div>
+              <div class="form-group">
+                <label for="numero-funcionarios">Número de Colaboradores</label>
+                <div>
+                  <label for="numero-funcionarios-s" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="numero-funcionarios-s"
+                      value="S"
+                      id="numero-funcionarios-s"
+                    />0-50</label
+                  >
+                  <label for="numero-funcionarios-m" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name=""
+                      value="M"
+                      id="numero-funcionarios-M"
+                    />50-200</label
+                  >
+                  <label for="numero-funcionarios-g" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="gender"
+                      value="G"
+                      id="numero-funcionarios-G"
+                    />+200</label
+                  >
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                />
+              </div>
+              <div class="form-group">
+                <label for="senha">Senha</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="senha"
+                  name="senha"
+                />
+              </div>
+              <div class="form-group">
+                <label for="telefone">Telefone</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="telefone"
+                  name="telefone"
+                />
+              </div>
+              <input type="submit" class="btn btn-primary" />
+            </form>
+          </div>
+        
+        </div>
+      </div>
+    </div>
+    
+    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+    </button>
+  </div>
+ 
+</div>
+  </body>
+</html>
